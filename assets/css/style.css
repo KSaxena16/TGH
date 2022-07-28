@@ -72,59 +72,49 @@ img {
   z-index: 100;
 }
 
-
-.gallery-title
-{
-    font-size: 36px;
-    color: #42B32F;
-    text-align: center;
-    font-weight: 500;
-    margin-bottom: 70px;
+.gallery-title {
+  font-size: 36px;
+  color: #42b32f;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 70px;
 }
 .gallery-title:after {
-    content: "";
-    position: absolute;
-    width: 7.5%;
-    left: 46.5%;
-    height: 45px;
-    border-bottom: 1px solid #5e5e5e;
+  content: "";
+  position: absolute;
+  width: 7.5%;
+  left: 46.5%;
+  height: 45px;
+  border-bottom: 1px solid #5e5e5e;
 }
-.filter-button
-{
-    font-size: 18px;
-    /* border: 1px solid #42B32F; */
-    border-radius: 5px;
-    text-align: center;
-    /* color: #42B32F; */
-    margin-bottom: 30px;
-
+.filter-button {
+  font-size: 18px;
+  /* border: 1px solid #42B32F; */
+  border-radius: 5px;
+  text-align: center;
+  /* color: #42B32F; */
+  margin-bottom: 30px;
 }
-.filter-button:hover
-{
-    font-size: 18px;
-    /* border: 1px solid #42B32F; */
-    border-radius: 5px;
-    text-align: center;
-    color: #ffffff;
-    /* background-color: #42B32F; */
-
+.filter-button:hover {
+  font-size: 18px;
+  /* border: 1px solid #42B32F; */
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+  /* background-color: #42B32F; */
 }
-.btn-default:active .filter-button:active
-{
-    background-color: #42B32F;
-    color: white;
+.btn-default:active .filter-button:active {
+  background-color: #42b32f;
+  color: white;
 }
 
-.port-image
-{
-    width: 100%;
+.port-image {
+  width: 100%;
 }
 
-.gallery_product
-{
-    margin-bottom: 30px;
+.gallery_product {
+  margin-bottom: 30px;
 }
-
 
 .my-float {
   margin-top: 16px;
@@ -976,7 +966,7 @@ button:focus {
 .faq-item .accordion li {
   position: relative;
   list-style-type: none;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   display: block;
   -webkit-box-shadow: 0 0 20px 0 #dddddd75;
   box-shadow: 0 0 20px 0 #dddddd75;
@@ -1037,6 +1027,26 @@ button:focus {
 .faq-item .accordion li .faq-content a:hover {
   color: #484848;
 }
+.specialRow{
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  justify-content: space-around;
+}
+.tiles{
+  /* margin-bottom: 30px; */
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* -webkit-box-shadow: 0 0 20px 0 #dddddd75; */
+  box-shadow: 0 0 20px 0 #dddddd75;
+  /* padding: 5px 5px; */
+  border-radius: 20px 20px 20px 0;
+  background-color: #fff;
+  border-radius: 10px 10px 10px 10px;
+  /* -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease; */
+}
 .services-item {
   margin-bottom: 30px;
   text-align: center;
@@ -1044,7 +1054,6 @@ button:focus {
   box-shadow: 0 0 20px 0 #dddddd75;
   padding: 30px 15px;
   border-radius: 20px 20px 20px 0;
-  background-image: url(../images/services/services-bg.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1083,7 +1092,7 @@ button:focus {
   top: 0;
   left: 0;
   background-color: #fff;
-  border-radius: 20px 20px 20px 0;
+  border-radius: 20px 20px 20px 20px;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
 }
@@ -1095,7 +1104,7 @@ button:focus {
   bottom: 0;
   left: 0;
   background-color: #fe7171;
-  border-radius: 20px 20px 20px 0;
+  border-radius: 20px 20px 20px 20px;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
   opacity: 0.8;
@@ -1634,6 +1643,16 @@ button:focus {
 }
 .blog-item .top img {
   width: 100%;
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 1px 5px 5px 1px #4d4a4a70;
+}
+.hover04 figure:hover img {
+	width: 300px;
+}
+.blog-item .top img:hover {
+  /* box-shadow: 2px 5px 5px 2px #af1b2f; */
+  
 }
 .blog-item .bottom h3 {
   font-size: 20px;
@@ -2079,7 +2098,7 @@ button:focus {
   color: #484848;
 }
 .know-area {
-  background-color: #fff2f4;
+  background-color: #ffd65808;
   position: relative;
 }
 .know-area .know-shape img {
@@ -2174,7 +2193,6 @@ button:focus {
   -webkit-animation: banner-ani-three 8s infinite linear;
   animation: banner-ani-three 8s infinite linear;
 }
-
 
 .get-area.two .get-content {
   background-color: #ad4747d1;
@@ -2349,6 +2367,22 @@ button:focus {
   -webkit-transform: translate(0, -10px);
   transform: translate(0, -10px);
 }
+.shop-item-spec{
+  text-align: center;
+  margin-bottom: 30px;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  /* background-color: white; */
+  padding:10px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px 2px #ce2d2d42;
+}
+.shope-item-spec:hover{
+  -webkit-transform: translate(0, -10px);
+  transform: translate(0, -10px);
+  box-shadow: 2px 5px 5px 2px #e22d2da1;
+}
+
 .shop-item:hover .top ul li {
   opacity: 1;
   visibility: visible;
@@ -5102,4 +5136,10 @@ button:focus {
 .buy-now-btn:hover {
   color: #fff;
   background-color: #94be5d;
+}
+
+/* banner text */
+.tp-caption-text{
+  background-color: rgba(207,195,195,0.6);
+ color: rgb(0, 0, 0);
 }
